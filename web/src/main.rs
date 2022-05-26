@@ -1,3 +1,6 @@
+mod services;
+mod types;
+
 use yew::prelude::*;
 
 #[function_component(App)]

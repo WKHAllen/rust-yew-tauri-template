@@ -234,6 +234,7 @@ dependencies = [
 name = "rust-yew-tauri-template"
 version = "0.1.0"
 dependencies = [
+ "web-sys",
  "yew",
 ]
 

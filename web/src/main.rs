@@ -1,15 +1,7 @@
+mod components;
 mod services;
 mod types;
 
-use yew::prelude::*;
-
-#[function_component(App)]
-pub fn app() -> Html {
-    html! {
-        <h1>{"Hello, world!"}</h1>
-    }
-}
-
 fn main() {
-    yew::start_app::<App>();
+    yew::start_app::<components::App>();
 }

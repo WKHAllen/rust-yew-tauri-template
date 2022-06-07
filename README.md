@@ -12,6 +12,9 @@ $ cargo install --locked trunk
 
 # Install the tauri CLI
 $ cargo install tauri-cli --locked --version "^1.0.0-rc"
+
+# Add the WASM target
+$ rustup target add wasm32-unknown-unknown
 ```
 
 ## Build and Run
